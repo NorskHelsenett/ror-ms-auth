@@ -1,5 +1,5 @@
 apiVersion: v2
-name: ms-auth
+name: ror-s-auth
 description: ROR micro service for Dex integrations
 
 # A chart can be either an 'application' or a 'library' chart.
