@@ -3,5 +3,5 @@ FROM ${GCR_MIRROR}distroless/static:nonroot
 LABEL org.opencontainers.image.source https://github.com/norskhelsenett/ror
 WORKDIR /
 
-COPY dist/ms-auth /bin/auth
-ENTRYPOINT ["/bin/auth"]
+COPY dist/ms-auth /bin/ms-auth
+ENTRYPOINT ["/bin/ms-auth"]
